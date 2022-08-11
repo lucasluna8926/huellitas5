@@ -1,0 +1,99 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: white;
+    transition: background-color .9s;
+}
+
+
+.cards-wrapper {
+    display: flex;
+}
+
+.card {
+    margin: 0 .5em
+}
+
+
+
+.marcas:hover {
+    transform: rotate(360deg);
+    transition: 3s;
+}
+
+body.dark {
+    background-color: #1a1e21;
+    color: white;
+}
+
+.hola {
+    transition: 6s;
+}
+
+.catalogo:hover {
+    transform: scale(1.2);
+    transition: 0.7s;
+}
+
+.servicios:hover{
+    transform: scale(1.2);
+    transition: 0.7s;
+}
+
+
+
+
+
+
+
+
+.navbar-nav {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+
+
+.nav-link:hover {
+    transform: scale(1.01);
+    transition: 0.2s;
+}
+
+
+
+.banner {
+    margin-top: -20px;
+}
+
+
+.container_dog {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.navbar {
+    background-image: url(imagenes_fondo/nav.png);
+    background-size: contain;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.headernav {
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+
+.footer {
+    margin-bottom: 10px;
+}
